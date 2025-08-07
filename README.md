@@ -1,7 +1,7 @@
 # Systemdesign
 
-I will be experimenting various concepts in this repo to get hands on experience with
-some of the System Design use cases 
+This repository serves as a sandbox for exploring and implementing various system design concepts through practical, 
+hands-on experimentation with real-world use cases.
 
 ## Tech stack 
 1. Gradle
