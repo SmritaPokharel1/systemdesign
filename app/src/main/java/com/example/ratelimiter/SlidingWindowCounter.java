@@ -1,6 +1,6 @@
 package com.example.ratelimiter;
 
-public class SlidingWindowCounterRateLimiter {
+public class SlidingWindowCounter {
 
     private long windowSize; // 60s
     private int noOfBuckets;
@@ -9,7 +9,7 @@ public class SlidingWindowCounterRateLimiter {
     private int[] buckets;
     private int bucketIndex;
 
-    public SlidingWindowCounterRateLimiter(long windowSize, int noOfBuckets, int maxRequests){
+    public SlidingWindowCounter(long windowSize, int noOfBuckets, int maxRequests){
 
         this.windowSize = windowSize;
         this.noOfBuckets = noOfBuckets;

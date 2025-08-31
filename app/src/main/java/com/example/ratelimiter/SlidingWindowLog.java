@@ -3,13 +3,13 @@ package com.example.ratelimiter;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class SlidingWindowLogRateLimiter {
+public class SlidingWindowLog {
 
     private long windowSize;
     private Deque<Long> timestamps;
     private long maxRequests;
 
-    public SlidingWindowLogRateLimiter(long windowSize, long maxRequests){
+    public SlidingWindowLog(long windowSize, long maxRequests){
 
         this.windowSize = windowSize;
         this.maxRequests = maxRequests;
