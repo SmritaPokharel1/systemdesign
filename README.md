@@ -6,6 +6,9 @@ hands-on experimentation with real-world use cases.
 ## Tech stack 
 1. Gradle
 2. Java
-3. Consul 
-   - Service discovery
-   - Health checks
+3. Consul
+   - Service Discovery
+   - Health Checking
+   - Key-Value Store (KV)
+   - 
+
